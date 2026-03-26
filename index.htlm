@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paiement validé</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F8FAFC;
+      color: #0B1220;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      text-align: center;
+      max-width: 500px;
+    }
+    h1 {
+      color: #16A34A;
+      margin-bottom: 12px;
+    }
+    p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>✅ Paiement validé</h1>
+    <p>Merci pour votre achat.</p>
+    <p>Votre boisson est en cours de distribution.</p>
+    <p>Vous pouvez retourner au distributeur.</p>
+  </div>
+</body>
+</html>
